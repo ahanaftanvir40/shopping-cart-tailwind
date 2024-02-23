@@ -6,8 +6,8 @@ export const AllRoutes = () => {
     return (
         <div>
             <Routes>
-                <Route path='/' element={<Home />}></Route>
-                <Route path='/shoppingcart/cart' element={<Cart />}></Route>
+                <Route path='/' element={<Home title='Home' />}></Route>
+                <Route path='/shoppingcart/cart' element={<Cart title='Cart' />}></Route>
             </Routes>
         </div>
     )

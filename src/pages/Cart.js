@@ -1,6 +1,8 @@
+import { useTitle } from "../hooks/useTitle"
 
 
-export const Cart = () => {
+export const Cart = ({ title }) => {
+    useTitle(title)
     const products = [{
         id: 1,
         name: 'Sony Wh-Ch510 Bluetooth Wireless',
